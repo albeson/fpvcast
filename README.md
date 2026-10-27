@@ -23,7 +23,7 @@ na tela. Hoje funciona com o **DJI Goggles N3**.
 
 ## O que você precisa
 
-![Raspberry Pi Zero W, com as portas USB e PWR IN](images/raspberry-pi-zero-w.jpg)
+![Esquema do Pi com as portas USB (óculos) e PWR IN (energia)](images/pi-diagrama.svg)
 
 - Um **Raspberry Pi Zero W** (ou Zero 2 W) e um cartão microSD.
 - Os óculos (**DJI Goggles N3**; outros modelos da DJI ainda não foram testados).
@@ -59,9 +59,3 @@ A imagem é construída sobre o Raspberry Pi OS, que inclui o Linux e outros pro
 licenças livres semelhantes. O código-fonte desses programas está nas fontes oficiais do Raspberry Pi OS e do
 Debian, em [github.com/RPi-Distro](https://github.com/RPi-Distro) e [deb.debian.org](https://deb.debian.org/).
 O fpvcast em si (o que roda nos óculos) não é um software livre.
-
-## Créditos das imagens
-
-Foto do Raspberry Pi Zero W: [Les Pounder](https://www.flickr.com/photos/45703688@N07/32974172240), via
-[Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Raspberry_Pi_Zero_W_(32974172240).jpg), licença
-[CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/) (redimensionada).

@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <style>
+      .board { fill: #1f6b3a; stroke: #15492a; stroke-width: 2; }
+      .pad { fill: #d9b65c; }
+      .hole { fill: #0d1117; stroke: #d9b65c; stroke-width: 3; }
+      .port { fill: #c9ccd1; stroke: #6b6f76; stroke-width: 1.5; }
+      .port-dark { fill: #3a3d42; stroke: #6b6f76; stroke-width: 1.5; }
+      .label { fill: #e6edf3; font-size: 22px; font-weight: 700; }
+      .sub { fill: #9aa4b2; font-size: 15px; }
+      .tag { fill: #0d1117; stroke: #d9b65c; stroke-width: 1.5; rx: 6; }
+      .tagtext { fill: #d9b65c; font-size: 16px; font-weight: 700; }
+      .arrow { stroke: #d9b65c; stroke-width: 2; fill: none; marker-end: url(#arrowhead); }
+    </style>
+    <marker id="arrowhead" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#d9b65c"/>
+    </marker>
+  </defs>
+
+  <rect width="900" height="420" fill="#0d1117"/>
+
+  <!-- placa -->
+  <rect class="board" x="230" y="90" width="440" height="230" rx="14"/>
+
+  <!-- furos de montagem -->
+  <circle class="hole" cx="255" cy="113" r="11"/>
+  <circle class="hole" cx="645" cy="113" r="11"/>
+  <circle class="hole" cx="255" cy="302" r="11"/>
+  <circle class="hole" cx="645" cy="302" r="11"/>
+
+  <!-- header GPIO -->
+  <g>
+    <rect x="260" y="100" width="340" height="18" fill="#0d1117" opacity="0.25"/>
+    <!-- duas fileiras de pinos -->
+    <g>
+      <!-- gerado programaticamente nao e possivel aqui; pinos fixos -->
+    </g>
+  </g>
+
+  <!-- slot micro SD -->
+  <rect x="245" y="150" width="60" height="45" fill="#8a8f98" stroke="#5a5e66" stroke-width="1.5"/>
+  <text x="275" y="210" text-anchor="middle" class="sub">SD</text>
+
+  <!-- chip central -->
+  <rect x="380" y="150" width="90" height="90" fill="#15171a" stroke="#2b2f36" stroke-width="1.5"/>
+
+  <!-- HDMI mini -->
+  <rect class="port-dark" x="305" y="260" width="55" height="28"/>
+  <text x="332" y="308" text-anchor="middle" class="sub">HDMI</text>
+
+  <!-- USB (dados) -->
+  <rect class="port" x="430" y="260" width="55" height="28"/>
+  <text x="457" y="305" text-anchor="middle" class="sub">USB</text>
+
+  <!-- PWR IN -->
+  <rect class="port" x="520" y="260" width="55" height="28"/>
+  <text x="547" y="305" text-anchor="middle" class="sub">PWR IN</text>
+
+  <!-- chamadas -->
+  <path class="arrow" d="M457,255 L457,210 L300,170"/>
+  <rect class="tag" x="120" y="150" width="180" height="40" rx="6"/>
+  <text x="210" y="176" text-anchor="middle" class="tagtext">USB: óculos</text>
+
+  <path class="arrow" d="M547,255 L547,210 L700,165"/>
+  <rect class="tag" x="640" y="145" width="180" height="40" rx="6"/>
+  <text x="730" y="171" text-anchor="middle" class="tagtext">PWR IN: energia</text>
+
+  <text x="450" y="60" text-anchor="middle" class="label">Pi Zero W / Zero 2 W (esquema)</text>
+</svg>
