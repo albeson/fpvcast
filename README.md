@@ -23,7 +23,7 @@ na tela. Hoje funciona com o **DJI Goggles N3**.
 
 ## O que você precisa
 
-![Esquema do Pi com as portas USB (óculos) e PWR IN (energia)](images/pi-diagrama.svg)
+![Esquema de ligação: óculos → adaptador OTG → cabo → Pi, energia separada na PWR IN, HDMI pra TV](images/conexao.svg)
 
 - Um **Raspberry Pi Zero W** (ou Zero 2 W) e um cartão microSD.
 - Os óculos (**DJI Goggles N3**; outros modelos da DJI ainda não foram testados).
