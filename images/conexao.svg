@@ -39,8 +39,6 @@
   <text x="390" y="273" text-anchor="middle" class="tagtext">cabo USB-C →</text>
   <text x="390" y="289" text-anchor="middle" class="tagtext">micro-USB</text>
 
-  <path class="wire" d="M470,277 L670,277 L670,284"/>
-
   <!-- ===================== FONTE DE ENERGIA (acima da PWR IN) ===================== -->
   <g transform="translate(705,30)">
     <rect class="iconfill" x="0" y="8" width="56" height="32" rx="5"/>
@@ -49,7 +47,6 @@
     <text x="32" y="-10" text-anchor="middle" class="label">Fonte de energia</text>
     <text x="32" y="63" text-anchor="middle" class="sub">micro-USB, 5V</text>
   </g>
-  <path class="wire-pwr" d="M737,105 L737,284"/>
 
   <!-- ===================== PLACA (centro; ordem real das portas: HDMI, USB, PWR IN) ===================== -->
   <g transform="translate(555,160)">
@@ -74,7 +71,11 @@
   </g>
   <text x="670" y="400" text-anchor="middle" class="label">Pi Zero W / Zero 2 W</text>
 
-  <!-- marcadores dos pontos de conexão, por cima da placa (pra não ficar coberto pelas portas) -->
+  <!-- fios da USB e da PWR IN: por cima da placa, senão ficam escondidos atrás dela -->
+  <path class="wire" d="M470,277 L670,277 L670,284"/>
+  <path class="wire-pwr" d="M737,105 L737,284"/>
+
+  <!-- marcadores dos pontos de conexão, por cima de tudo -->
   <circle class="pin" cx="602" cy="296" r="5" fill="#7cd992"/>
   <circle class="pin" cx="670" cy="284" r="5" fill="#d9b65c"/>
   <circle class="pin" cx="737" cy="284" r="5" fill="#ff7a5c"/>
