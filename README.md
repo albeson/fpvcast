@@ -7,6 +7,8 @@ na tela. Hoje funciona com o **DJI Goggles N3**.
 
 > "DJI" e os nomes dos óculos são marcas da DJI. O fpvcast é um projeto independente, sem relação com a DJI.
 
+![Tela do fpvcast no HDMI, aguardando os óculos conectarem](images/hdmi-aguardando.png)
+
 ## O que ele faz
 
 - **Vídeo no HDMI** em 1080p30, com baixa latência (medida em ~27 ms só no decodificador).
@@ -16,6 +18,8 @@ na tela. Hoje funciona com o **DJI Goggles N3**.
   status do vídeo, Wi-Fi, telas do HDMI e dados do aparelho.
 - **Primeiro uso só com o celular:** o aparelho cria sua própria rede Wi-Fi (`fpvcast`) para você configurar a
   rede de casa pela página, lendo um QR code na tela.
+
+![Página de status do fpvcast, aberta no navegador](images/pagina-status.png)
 
 ## O que você precisa
 
