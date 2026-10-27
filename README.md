@@ -23,11 +23,11 @@ na tela. Hoje funciona com o **DJI Goggles N3**.
 
 ## O que você precisa
 
-![Esquema de ligação: óculos → adaptador OTG → cabo → Pi, energia separada na PWR IN, HDMI pra TV](images/conexao.svg)
+![Esquema de ligação: óculos → cabo USB-C→micro-USB → Pi, energia separada na PWR IN, HDMI pra TV](images/conexao.svg)
 
 - Um **Raspberry Pi Zero W** (ou Zero 2 W) e um cartão microSD.
 - Os óculos (**DJI Goggles N3**; outros modelos da DJI ainda não foram testados).
-- Um adaptador OTG USB-C→USB-A, um cabo USB-A→micro-USB, e uma fonte de alimentação para o Pi.
+- Um cabo USB-C→micro-USB, e uma fonte de alimentação para o Pi.
 - Uma licença de uso (veja abaixo).
 
 ## Como instalar
@@ -40,8 +40,8 @@ na tela. Hoje funciona com o **DJI Goggles N3**.
    um QR code — leia com o celular para entrar na rede do aparelho e abrir a página de configuração.
 4. Cadastre sua rede Wi-Fi pela página (opcional, mas recomendado).
 5. Ative a licença pela própria página, na aba Sistema.
-6. Ligue os óculos no Pi: adaptador OTG no óculos, cabo USB-A→micro-USB na porta **"USB"** do Pi (a alimentação
-   vai separada, na porta "PWR IN"). Nos óculos, deixe **"OTG Wired Connection to Computer" desligado**.
+6. Ligue os óculos no Pi: cabo USB-C→micro-USB, do óculos na porta **"USB"** do Pi (a alimentação vai separada,
+   na porta "PWR IN"). Nos óculos, deixe **"OTG Wired Connection to Computer" desligado**.
 
 ## Licença
 

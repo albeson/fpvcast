@@ -33,17 +33,12 @@
     <text x="70" y="85" text-anchor="middle" class="sub">saída USB-C</text>
   </g>
 
-  <path class="wire" d="M182,277 L250,277"/>
-  <rect class="tag" x="255" y="255" width="110" height="44" rx="6"/>
-  <text x="310" y="273" text-anchor="middle" class="tagtext">adaptador OTG</text>
-  <text x="310" y="289" text-anchor="middle" class="tagtext">USB-C → USB-A</text>
+  <path class="wire" d="M182,277 L305,277"/>
+  <rect class="tag" x="310" y="255" width="160" height="44" rx="6"/>
+  <text x="390" y="273" text-anchor="middle" class="tagtext">cabo USB-C →</text>
+  <text x="390" y="289" text-anchor="middle" class="tagtext">micro-USB</text>
 
-  <path class="wire" d="M365,277 L420,277"/>
-  <rect class="tag" x="425" y="255" width="130" height="44" rx="6"/>
-  <text x="490" y="273" text-anchor="middle" class="tagtext">cabo USB-A →</text>
-  <text x="490" y="289" text-anchor="middle" class="tagtext">micro-USB</text>
-
-  <path class="wire" d="M555,277 L670,277 L670,280"/>
+  <path class="wire" d="M470,277 L670,277 L670,280"/>
 
   <!-- ===================== FONTE DE ENERGIA (acima da PWR IN) ===================== -->
   <g transform="translate(705,30)">
